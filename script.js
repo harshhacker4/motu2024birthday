@@ -206,7 +206,7 @@ function addItems(id){
 }
 
 const password = "motulotu2024";
-if (prompt("This is the journals for Dinni's birthday in 2024, you need a password for this file:") === password){for (let i = 0; i < 30; i++) {
+if (prompt("This is the journal for Dinni's birthday in 2024, you need a password for this file:") === password){for (let i = 0; i < 30; i++) {
     addItems(i);
 }
 }
